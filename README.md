@@ -11,6 +11,21 @@
 
 Laravel Octane supercharges your application's performance by serving your application using high-powered application servers, including [FrankenPHP](https://frankenphp.dev), [Open Swoole](https://openswoole.com), [Swoole](https://github.com/swoole/swoole-src), and [RoadRunner](https://roadrunner.dev). Octane boots your application once, keeps it in memory, and then feeds it requests at supersonic speeds.
 
+## ⚡ Enhanced for Swoole & OpenSwoole
+
+**This version is specifically optimized for [Swoole](https://github.com/swoole/swoole-src) and [OpenSwoole](https://openswoole.com)** and includes enhanced ticker functionality with **millisecond precision timing**. 
+
+### Key Enhancements:
+- **Millisecond Precision Tickers**: Execute callbacks with sub-second accuracy (down to milliseconds)
+- **Fluent Ticker API**: Use `.milliseconds(500)` or `.seconds(2)` for intuitive interval configuration
+- **Enhanced Performance**: Optimized timing mechanisms for high-frequency operations
+- **Better Testing**: Comprehensive test coverage for millisecond-precision functionality
+
+### Recommended Usage:
+For the best experience and to leverage all enhanced features, we recommend using this version with:
+- **Swoole 5.0+** or **OpenSwoole 22.0+**
+- PHP 8.1+ for optimal performance
+
 ## Official Documentation
 
 Documentation for Octane can be found on the [Laravel website](https://laravel.com/docs/octane).
