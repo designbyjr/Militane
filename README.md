@@ -1,4 +1,4 @@
-<p align="center"><img width="335" height="61" src="/art/logo.svg" alt="Logo Laravel Militane - Octanes steriodal brother on ms"></p>
+<p align="center">Laravel Militane - Octanes steriodal brother on ms</p>
 
 <p align="center">
 <a href="https://github.com/laravel/octane/actions"><img src="https://github.com/laravel/octane/workflows/tests/badge.svg" alt="Build Status"></a>
